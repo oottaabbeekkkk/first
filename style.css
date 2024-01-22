@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.h2{
+    display: none;
+}
+.box1{
+    width: 30%;
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box2{
+    width: 30%;
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box3{
+    width: 30%;
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pic1{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sen{
+    width: 30%;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.man{
+    width: 70%;
+    background-color: lime;
+    padding: 10px;
+}
+@media(max-width:1250px){
+    .sen{
+        width: 100%;
+    }
+    .man{
+        width: 100%;
+    }
+    .h2{
+        width: 68%;
+        display: block;
+    }
+    .pic1{
+        width: 28%;
+    }
+    .sen{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .h3{
+        display: none;
+    }
+}
+@media(max-width:1050px){
+    .box1{
+        width: 100%;
+        color: blue;
+        text-align: center;
+    }
+    .box2{
+        width: 100%;
+        color: blue;
+        text-align: center;
+    }
+    .box3{
+        color: blue;
+        text-align: center;
+        width: 100%;
+    }
+}
